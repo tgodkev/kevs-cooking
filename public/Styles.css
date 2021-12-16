@@ -1,0 +1,22 @@
+body {
+    padding:0; 
+    margin:0; 
+    height:100%;
+    background-color: #406882;
+}
+
+header {
+    background-color: #1A374D;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  }
+
+  footer {
+    position: 2000;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
+
