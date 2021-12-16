@@ -4,7 +4,7 @@ const recipes = [
         name: "Stuffed Chicken Breasts",
         description:"Broccoli and Cheese Stuffed Chicken Breast is filled with a delicious broccoli cheese mixture, seared in a skillet and then baked to perfection",
         imgURL:"https://easychickenrecipes.com/wp-content/uploads/2020/05/broccoli-cheese-stuffed-chicken-4-650x975.jpg",
-        ingredients: "4 chicken breasts, 4 tablespon evoo, 2 cups broccoli, 1/2 cup shredded cheddar, 6 ounces cream cheese, as much garlic as desried",
+        ingredients: "4 chicken breasts, 4 tablespon evoo, 2 cups broccoli, 1/2 cup shredded cheddar, 6 ounces cream cheese, as much garlic as desired",
         instructions:"slice pocket into chicken breast, cook broccoli set aside, mix coocked broccoli in a bowl with cheddar chesse cream cheese and garlic. put broccoli and cheese mixture into chicken pockets, warm skillet with evoo, and season the chicken breasts. sear on each side for 4 minutes then put into oven at 350 for 30 min",
         time:" 45minutes",
         meat: "Chicken",
