@@ -70,7 +70,7 @@ const ExpandMore = styled((props) => {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites" style={{backgroundColor: heart ? "red" :"grey"}} onClick={changeColor} >
+        <IconButton aria-label="add to favorites" style={{color: heart ? "red" :"grey"}} onClick={changeColor} >
           <FavoriteIcon
           />
         </IconButton>
