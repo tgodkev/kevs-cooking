@@ -22,7 +22,6 @@ import Grid from "@mui/material/Grid";
 
 
 
-
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
   return <IconButton {...other} />;
@@ -48,14 +47,9 @@ const ExpandMore = styled((props) => {
     <Card sx={{ maxWidth: 345 }} style={{height: "auto", width: "400px", background:"#6998AB", marginBottom:"10px", marginTop:"10px"}} >
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-            {props.name}
+          <Avatar sx={{ bgcolor: red[500], height: "70px", width: "70px" }} aria-label="recipe">
+            {props.meat}
           </Avatar>
-        }
-        action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
-          </IconButton>
         }
         title={props.name}
         subheader={props.time}
@@ -73,7 +67,9 @@ const ExpandMore = styled((props) => {
       </CardContent>
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+          <FavoriteIcon 
+        
+          />
         </IconButton>
         <IconButton aria-label="share">
           <ShareIcon />

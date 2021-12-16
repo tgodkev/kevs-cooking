@@ -18,6 +18,7 @@ import recipes from "./Recipes";
       ingredients={recipes.ingredients}
       description={recipes.description}
       time={recipes.time}
+      meat={recipes.meat}
       />
     )
   }
