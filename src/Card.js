@@ -44,6 +44,20 @@ const ExpandMore = styled((props) => {
     setHeart(!heart);
   }
 
+  const [copied, setCopied] = React.useState(false);
+
+  function copy() {
+    const el = document.createElement("input");
+    el.value = window.location.href;
+    document.body.appendChild(el);
+    el.select();
+    document.execCommand("copy");
+    document.body.removeChild(el);
+    setCopied(true);
+  }
+
+
+
   return (
             
 
@@ -74,7 +88,7 @@ const ExpandMore = styled((props) => {
           <FavoriteIcon
           />
         </IconButton>
-        <IconButton aria-label="share">
+        <IconButton aria-label="share" onClick={copy}>
           <ShareIcon />
         </IconButton>
         <ExpandMore
