@@ -45,7 +45,7 @@ const ExpandMore = styled((props) => {
             
 
       <Grid container direction="column" alignItems="center">
-    <Card sx={{ maxWidth: 345 }} style={{height: "auto", width: "400px", background:"#6998AB", marginBottom:"10px"}} >
+    <Card sx={{ maxWidth: 345 }} style={{height: "auto", width: "400px", background:"#6998AB", marginBottom:"10px", marginTop:"10px"}} >
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
