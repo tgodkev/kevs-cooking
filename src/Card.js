@@ -88,7 +88,7 @@ const ExpandMore = styled((props) => {
           <FavoriteIcon
           />
         </IconButton>
-        <IconButton aria-label="share" onClick={copy}>
+        <IconButton aria-label="share" onClick={copy} style={{color: copied ? "green" : "grey"}}>
           <ShareIcon />
         </IconButton>
         <ExpandMore
