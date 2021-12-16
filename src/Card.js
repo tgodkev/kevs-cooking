@@ -46,7 +46,7 @@ const ExpandMore = styled((props) => {
     <Card sx={{ maxWidth: 345 }} style={{height: "auto", width: "400px", background:"#6998AB", marginBottom:"10px", marginTop:"10px"}} >
       <CardHeader
         avatar={
-          <Avatar sx={{ bgcolor: red[500], height: "70px", width: "70px" }} aria-label="recipe">
+          <Avatar sx={{ bgcolor: "#1A374D", height: "70px", width: "70px" }} aria-label="recipe">
             {props.meat}
           </Avatar>
         }
