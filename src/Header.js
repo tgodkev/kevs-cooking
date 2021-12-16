@@ -5,7 +5,7 @@ import { width } from "@mui/system";
 function Header() {
   return (
     <header>
-      <h1>Just Recipes No stories. <MenuBookRoundedIcon style={{height:"50px", width:"50px"}}/></h1>
+      <h1>Just Recipes No Stories. <MenuBookRoundedIcon style={{height:"50px", width:"50px"}}/></h1>
     </header>
   );
 }
