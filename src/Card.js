@@ -41,7 +41,7 @@ const ExpandMore = styled((props) => {
     const [heart, setHeart] = React.useState(false);
 
   function changeColor(){
-    setHeart(true);
+    setHeart(!heart);
   }
 
   return (
