@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, {useSate} from 'react';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
 import CardHeader from '@mui/material/CardHeader';
@@ -38,6 +38,12 @@ const ExpandMore = styled((props) => {
     setExpanded(!expanded);
   };
 
+    const [heart, setHeart] = React.useState(false);
+
+  function changeColor(){
+    setHeart(true);
+  }
+
   return (
             
 
@@ -64,9 +70,8 @@ const ExpandMore = styled((props) => {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon 
-        
+        <IconButton aria-label="add to favorites" style={{backgroundColor: heart ? "red" :"grey"}} onClick={changeColor} >
+          <FavoriteIcon
           />
         </IconButton>
         <IconButton aria-label="share">
