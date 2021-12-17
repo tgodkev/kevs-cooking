@@ -54,6 +54,10 @@ const ExpandMore = styled((props) => {
     document.execCommand("copy");
     document.body.removeChild(el);
     setCopied(true);
+
+    return(
+      alert("URL copied to clipboard")
+    )
   }
 
 
